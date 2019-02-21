@@ -1,18 +1,18 @@
-import React from "react";
+import React from "react"
 
-import Footer from './Footer/index'
+import Routes from '../routes'
+
 import Header from './Header/index'
-
-import Button from '../components/Button/index'
+import Footer from './Footer/index'
 
 const App = () => (
-
-  <div>
-    <Header />
-      <div>meio</div>
-      <Button text="texto"/>
-    <Footer />
-  </div>
+	<div>
+		<Header />
+		<div className="container">
+			<Routes />
+		</div>
+		<Footer />
+	</div>
 );
 
-export default App;
+export default App

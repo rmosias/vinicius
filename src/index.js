@@ -1,7 +1,9 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './style/reset.css';
-import './style/main.css';
-import App from './core/App';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import App from './core/App'
 
-ReactDOM.render(<App />, document.getElementById('root'));
+import '../src/styles/reset.scss'
+import '../src/styles/grid.scss'
+import '../src/styles/main.scss'
+
+ReactDOM.render(<App />, document.getElementById('root'))

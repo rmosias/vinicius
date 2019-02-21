@@ -1,0 +1,17 @@
+@import '../../styles/variables.scss';
+
+.navbar {
+  display: flex;
+  padding: 1rem 0;
+  background-color: $success-color;
+}
+
+a {
+  color: $light-color;
+  text-decoration: none;
+}
+
+.menu {
+  display: inline-block;
+  margin-left: 0;
+}

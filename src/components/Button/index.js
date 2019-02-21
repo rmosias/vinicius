@@ -1,9 +1,14 @@
 import React from 'react';
 
-function Button(props) {
-    return (
-     <button>{props.text}</button>
-    );
-  }
+import './style.scss'
 
-export default Button;
+
+export const Button = ({ text, className }) => (
+  <button
+    className={className}
+  >
+    {text}
+  </button>
+);
+
+export default Button

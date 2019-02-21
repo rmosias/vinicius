@@ -1,0 +1,47 @@
+@import '../../styles/variables.scss';
+
+button {
+  display: inline-block;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: $primary-color;
+}
+
+.btn-secondary {
+  background-color: $secondary-color;
+}
+
+.btn-success {
+  background-color: $success-color;
+}
+
+.btn-danger {
+  background-color: $danger-color;
+}
+
+.btn-warning {
+  background-color: $warning-color;
+  color: $dark-color;
+}
+
+.btn-info {
+  background-color: $info-color;
+}
+
+.btn-light {
+  background-color: $light-color;
+}
+
+.btn-dark {
+  background-color: $dark-color;
+}
