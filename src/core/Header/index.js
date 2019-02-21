@@ -1,17 +1,25 @@
-import React, { Component } from 'react'
+import React from 'react'
+import { Link } from 'react-router-dom'
 
 import './style.scss'
 
-export default class Header extends Component {
-  render() {
-    return (
-      <nav className="navbar">
-        <div className="container">
-          <a href="/">Vinicius Vicentini</a>
+const Header = () => {
+  return (
+    <nav className="navbar">
+      <div className="container">
+        <Link to="/">Vinicius Vicentini</Link>
 
-          <div className="menu">teste</div>
+        <div className="menu">
+          <ul>
+
+            <li className="item">
+              <Link to="/user">User</Link>
+            </li>
+          </ul>
         </div>
-      </nav>
-    )
-  }
+      </div>
+    </nav>
+  )
 }
+
+export default Header

@@ -1,0 +1,46 @@
+{
+	"env": {
+		"browser": true,
+		"es6": true
+	},
+	"extends": "airbnb",
+	"globals": {
+		"Atomics": "readable",
+		"SharedArrayBuffer": "readable"
+	},
+	"parserOptions": {
+		"ecmaFeatures": {
+			"jsx": true
+		},
+		"ecmaVersion": 2018,
+		"sourceType": "module"
+	},
+	"plugins": [
+		"react"
+	],
+	"rules": {
+		"semi": [
+			"error",
+			"never"
+		],
+		"linebreak-style": "off",
+		"arrow-body-style": "off",
+		"react/jsx-filename-extension": "off",
+		"eol-last": [
+			"error",
+			"never"
+		],
+		"quotes": [
+			"error",
+			"single"
+		],
+		"indent": [
+			"error",
+			2
+		],
+		"react/jsx-one-expression-per-line": "off",
+		"react/button-has-type": "off",
+		"react/prop-types": "off",
+		"no-undef": "off"
+	}
+}

@@ -1,14 +1,15 @@
-import React from 'react';
+import React from 'react'
 
 import './style.scss'
 
+const Button = ({ text, className, type }) => (
 
-export const Button = ({ text, className }) => (
   <button
+    type={type}
     className={className}
   >
     {text}
   </button>
-);
+)
 
 export default Button

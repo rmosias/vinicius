@@ -4,6 +4,7 @@
   display: flex;
   padding: 1rem 0;
   background-color: $success-color;
+  color: $light-color;
 }
 
 a {
@@ -13,5 +14,14 @@ a {
 
 .menu {
   display: inline-block;
-  margin-left: 0;
+  float: right;
+}
+
+.menu > ul {
+  list-style:none;
+}
+
+.menu > ul > .item {
+  display: inline-block;
+  margin-right: .5rem;
 }
